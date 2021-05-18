@@ -1,1 +1,134 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'reset-css';
+
+/* Custom fonts */
+@import './assets/fonts/db_heavent_cond/db-heavent-cond.scss';
+
+/* Custom Scrollbar */
+// firefox
+// scrollbar-width: thin;
+// scrollbar-color: #cdcdcd #f0f0f0;
+
+// chrome, egde, safari
+// &::-webkit-scrollbar {
+//     width: 8px;
+//     height: 8px;
+// }
+// &::-webkit-scrollbar-track {
+//     background-color: #f0f0f0;
+// }
+// &::-webkit-scrollbar-thumb {
+//     background-color: #cdcdcd;
+//     border-radius: 4px;
+// }
+
+/* Initial html */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* HTML body default */
+body {
+  font-family: 'db_heavent_cond', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fbfbfb;
+}
+
+body{
+  /* Custom Hyperlink */
+  a {
+    color: #007bff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  /* Reset Select */
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-image: none;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+
+  /* Custom Select */
+  .select-wrap {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+      content: "\25bc";
+      width: 16px;
+      height: 16px;
+      color: #000;
+      background-color: rgba(255, 255, 255, 0.1);
+      position: absolute;
+      top: 2px;
+      right: 0;
+      z-index: 0;
+    }
+
+    .select-custom {
+      font-family: 'db_heavent_cond', sans-serif;
+      width: 100%;
+      padding: 2px 5px;
+      border: 1px solid #ced4da;
+      border-radius: 2px;
+      background-color: #fff;
+      position: relative;
+      cursor: pointer;
+      z-index: 1;
+      opacity: 0.83;
+    }
+  }
+
+  /* Custon Input */
+  .input-custom {
+    font-family: 'db_heavent_cond', sans-serif;
+    width: 100%;
+    padding: 2px 7px;
+    border: 1px solid #ced4da;
+    border-radius: 2px;
+    background-color: #fff;
+    outline: none;
+    opacity: .97;
+  }
+
+  /* Custom Button */
+  .button-custom {
+    font-family: 'db_heavent_cond', sans-serif;
+    padding: 2px 7px;
+    border: 1px solid #007bff;
+    border-radius: 2px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+      border: 1px solid #0069d9;
+      background-color: #0069d9;
+    }
+  }
+}
