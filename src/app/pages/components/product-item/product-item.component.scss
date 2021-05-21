@@ -1,0 +1,128 @@
+.ctn-wrapper {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 16px 11px;
+  position: relative;
+  overflow: visible;
+
+  a {
+    color: unset;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .ctn-badge {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    overflow: visible;
+    text-align: right;
+
+    .badge {
+      font-family: 'db_heavent_med_cond', sans-serif;
+      padding: 0 6px;
+      border-radius: 2px;
+      margin: 0 0 0 4px;
+      background-color: #dfdfdf;
+      position: relative;
+      top: -10px;
+      right: -6px;
+
+      &.hot {
+        // background-color: #ffb42a;
+        background-color: #ff9a24;
+      }
+      &.off {
+        background-color: #a5e010;
+      }
+    }
+  }
+
+  .ctn-prod {
+    width: 100%;
+    max-height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-align: center;
+
+    .prod-title {
+      font-family: 'db_heavent_med_cond', sans-serif;
+      font-size: 15px;
+    }
+  }
+
+  .ctn-price {
+    width: 100%;
+    margin: 16px 0 0 0;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+    .grand-total {
+      font-family: 'db_heavent_li_cond', sans-serif;
+    }
+
+    .sub-total {
+      font-family: 'db_heavent_med_cond', sans-serif;
+      font-size: 18px;
+    }
+  }
+
+  .ctn-image {
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    margin: 16px 0 0 0;
+  }
+
+  .ctn-button {
+    width: 100%;
+    text-align: center;
+    margin: 18px 0 0 0;
+
+    .buy-it {
+      width: 100%;
+      max-width: 90px;
+      background-color: #dfdfdf;
+      border: 1px solid #dfdfdf;
+      border-radius: 3px;
+      font-family: "db_heavent_med_cond", sans-serif;
+      font-size: 15px;
+      color: #333;
+      padding: 3px 7px;
+
+      &:hover {
+        background-color: #a6d628;
+        border: 1px solid #a6d628;
+      }
+    }
+  }
+
+  // set featured some item
+  &.item-hot {
+    background-color: #fff4e6;
+    border: 1px solid #ffc683;
+
+    .ctn-button {
+      .buy-it {
+        background-color: #a5e010;
+        border: 1px solid #a5e010;
+
+        &:hover {
+          background-color: #a6d628;
+          border: 1px solid #a6d628;
+        }
+      }
+    }
+  }
+}
