@@ -6,12 +6,21 @@
   padding: 16px 11px;
   position: relative;
   overflow: visible;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    -webkit-box-shadow: 1px 1px 8px 0px rgba(170,170,170,1);
+    -moz-box-shadow: 1px 1px 8px 0px rgba(170,170,170,1);
+    box-shadow: 1px 1px 8px 0px rgba(170,170,170,1);
+  }
 
   a {
     color: unset;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
 
     &:hover {
-      text-decoration: underline;
+      color: #a5e010;
     }
   }
 
@@ -33,7 +42,7 @@
       background-color: #dfdfdf;
       position: relative;
       top: -10px;
-      right: -6px;
+      right: -7px;
 
       &.hot {
         // background-color: #ffb42a;
@@ -57,7 +66,7 @@
 
     .prod-title {
       font-family: 'db_heavent_med_cond', sans-serif;
-      font-size: 15px;
+      font-size: 16px;
     }
   }
 
@@ -83,6 +92,13 @@
     height: 160px;
     text-align: center;
     margin: 16px 0 0 0;
+    position: relative;
+    overflow: hidden;
+
+    .prod-img {
+      height: 100%;
+      width: auto;
+    }
   }
 
   .ctn-button {
@@ -100,6 +116,7 @@
       font-size: 15px;
       color: #333;
       padding: 3px 7px;
+      transition: all 0.1s ease-in-out;
 
       &:hover {
         background-color: #a6d628;
@@ -117,6 +134,7 @@
       .buy-it {
         background-color: #a5e010;
         border: 1px solid #a5e010;
+        transition: all 0.1s ease-in-out;
 
         &:hover {
           background-color: #a6d628;
