@@ -1,0 +1,107 @@
+[
+  {
+    "sku": "2001",
+    "featured": "item-hot",
+    "badge": [
+      { "class": "hot", "label": "hot" },
+      { "class": "off", "label": "off 999%" }
+    ],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 999999999,
+    "subTotal": 999999999
+  },
+  {
+    "sku": "2002",
+    "featured": "item-hot",
+    "badge": [
+      { "class": "hot", "label": "hot" },
+      { "class": "off", "label": "off 999%" }
+    ],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 888888888,
+    "subTotal": 888888888
+  },
+  {
+    "sku": "2003",
+    "featured": "",
+    "badge": [],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 777777777,
+    "subTotal": 777777777
+  },
+  {
+    "sku": "2004",
+    "featured": "",
+    "badge": [],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 777777777,
+    "subTotal": 777777777
+  },
+  {
+    "sku": "2005",
+    "featured": "",
+    "badge": [],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 777777777,
+    "subTotal": 777777777
+  },
+  {
+    "sku": "2006",
+    "featured": "",
+    "badge": [],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 777777777,
+    "subTotal": 777777777
+  },
+  {
+    "sku": "2007",
+    "featured": "",
+    "badge": [],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 777777777,
+    "subTotal": 777777777
+  },
+  {
+    "sku": "2008",
+    "featured": "",
+    "badge": [],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 777777777,
+    "subTotal": 777777777
+  },
+  {
+    "sku": "2009",
+    "featured": "",
+    "badge": [],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 777777777,
+    "subTotal": 777777777
+  },
+  {
+    "sku": "2010",
+    "featured": "",
+    "badge": [],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 777777777,
+    "subTotal": 777777777
+  },
+  {
+    "sku": "2011",
+    "featured": "",
+    "badge": [],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 777777777,
+    "subTotal": 777777777
+  }
+]

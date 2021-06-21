@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { SwiperModule } from 'swiper/angular';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -9,6 +10,7 @@ import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.compone
 import { HeaderComponent } from './pages/components/header/header.component';
 import { FooterComponent } from './pages/components/footer/footer.component';
 import { SwiperComponent } from './pages/components/swiper/swiper.component';
+import { ProductItemComponent } from './pages/components/product/product-item/product-item.component';
 
 @NgModule({
   declarations: [
@@ -17,11 +19,13 @@ import { SwiperComponent } from './pages/components/swiper/swiper.component';
     PagenotfoundComponent,
     HeaderComponent,
     FooterComponent,
-    SwiperComponent
+    SwiperComponent,
+    ProductItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     SwiperModule
   ],
   providers: [],

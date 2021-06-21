@@ -1,0 +1,62 @@
+[
+  {
+    "sku": "1001",
+    "featured": "item-hot",
+    "badge": [
+      { "class": "hot", "label": "hot" },
+      { "class": "off", "label": "off 999%" }
+    ],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 999999999,
+    "subTotal": 999999999
+  },
+  {
+    "sku": "1002",
+    "featured": "item-hot",
+    "badge": [
+      { "class": "hot", "label": "hot" },
+      { "class": "off", "label": "off 999%" }
+    ],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 888888888,
+    "subTotal": 888888888
+  },
+  {
+    "sku": "1003",
+    "featured": "item-hot",
+    "badge": [
+      { "class": "hot", "label": "hot" },
+      { "class": "off", "label": "off 999%" }
+    ],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 999999999,
+    "subTotal": 999999999
+  },
+  {
+    "sku": "1004",
+    "featured": "item-hot",
+    "badge": [
+      { "class": "hot", "label": "hot" },
+      { "class": "off", "label": "off 999%" }
+    ],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 888888888,
+    "subTotal": 888888888
+  },
+  {
+    "sku": "1005",
+    "featured": "item-hot",
+    "badge": [
+      { "class": "hot", "label": "hot" },
+      { "class": "off", "label": "off 999%" }
+    ],
+    "title": "Product Name ไอเทมชั้นหนึ่ง สุดร้อนแรงแห่งปี ไม่ซื้อไม่ได้แล้ว",
+    "imagePath": "/assets/example/example.png",
+    "priceTotal": 999999999,
+    "subTotal": 999999999
+  }
+]

@@ -28,7 +28,17 @@
     <div class="d-wrapper">
       <app-product-item
         class="block-item-hot"
-        *ngFor="let element of object"
+        *ngFor="let item of prodHotItems"
+        [productItem]="item"
+      ></app-product-item>
+    </div>
+
+    <h2 class="d-title title-secondary">ข้อเสนอยอดนิยม</h2>
+    <div class="d-wrapper">
+      <app-product-item
+        class="block-item-hot"
+        *ngFor="let item of prodItems"
+        [productItem]="item"
       ></app-product-item>
     </div>
 
