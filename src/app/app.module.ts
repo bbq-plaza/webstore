@@ -9,7 +9,6 @@ import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.compone
 import { HeaderComponent } from './pages/components/header/header.component';
 import { FooterComponent } from './pages/components/footer/footer.component';
 import { SwiperComponent } from './pages/components/swiper/swiper.component';
-import { ProductItemComponent } from './pages/components/product-item/product-item.component';
 
 @NgModule({
   declarations: [
@@ -18,8 +17,7 @@ import { ProductItemComponent } from './pages/components/product-item/product-it
     PagenotfoundComponent,
     HeaderComponent,
     FooterComponent,
-    SwiperComponent,
-    ProductItemComponent
+    SwiperComponent
   ],
   imports: [
     BrowserModule,
