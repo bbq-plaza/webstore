@@ -9,7 +9,7 @@ import SwiperCore, {
 } from 'swiper/core';
 
 // install Swiper modules
-SwiperCore.use([Navigation, Pagination, A11y, Autoplay]);
+SwiperCore.use([Navigation, Pagination, A11y]);
 
 @Component({
   selector: 'app-swiper',
@@ -17,6 +17,14 @@ SwiperCore.use([Navigation, Pagination, A11y, Autoplay]);
   styleUrls: ['./swiper.component.scss']
 })
 export class SwiperComponent implements OnInit {
+
+  public slides: any = [
+    '/assets/example/slide.png',
+    '/assets/example/slide.png',
+    '/assets/example/slide.png',
+    '/assets/example/slide.png',
+    '/assets/example/slide.png'
+  ];
 
   constructor() { }
 

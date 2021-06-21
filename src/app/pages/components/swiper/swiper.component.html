@@ -7,7 +7,11 @@
   [pagination]="{ clickable: true }"
   [autoplay]="true"
 >
-  <ng-template swiperSlide><div class="slide-item">Slide 1</div></ng-template>
-  <ng-template swiperSlide><div class="slide-item">Slide 2</div></ng-template>
-  <ng-template swiperSlide><div class="slide-item">Slide 3</div></ng-template>
+  <!-- <ng-template swiperSlide><div class="slide-item">Slide 1</div></ng-template> -->
+  <ng-template
+    *ngFor="let item of slides"
+    swiperSlide
+  >
+    <img class="slide-item" src="{{ item }}"/>
+  </ng-template>
 </swiper>
